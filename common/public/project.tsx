@@ -500,7 +500,7 @@ export default function ProjectPage() {
                                     name="projecturl_script"
                                     label="常规代码"
                                     // readonly={true}
-                                    initialValue={"<script src=//" + row.projecturl + "></script>"}
+                                    initialValue={"<script src=http://" + row.projecturl + "></script>"}
                                     disabled={true}
                                 />
                                 <ProFormText
@@ -508,7 +508,7 @@ export default function ProjectPage() {
                                     label="图片探测代码"
                                     tooltip="图片探测请在URL后添加.png/.jpg/.gif后缀名"
                                     // readonly={true}
-                                    initialValue={"<img src=//" + row.projecturl + ".png >"}
+                                    initialValue={"<img src=http://" + row.projecturl + ".png >"}
                                     disabled={true}
                                 />
                             </ModalForm>
